@@ -140,7 +140,7 @@ export default class HomeScreen extends React.Component{
                 </View>
                 <Entypo name={'google-play'} style={{color:"black",fontSize:50}}/>
                 <Text style={{color:"black",fontSize:15}}>OR</Text>
-                <TouchableOpacity onPress={()=>{Linking.openURL('http://172.16.1.129:8000/login_test.html')}}>
+                <TouchableOpacity onPress={()=>{Linking.openURL('http://192.168.43.19:8000/login_test.html')}}>
                 <Text style={{color:"#3498db",fontSize:20,textDecorationLine: 'underline'}}>KYChain</Text>
                 </TouchableOpacity>
             </View>
